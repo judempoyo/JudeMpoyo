@@ -1,0 +1,9 @@
+node_modules/
+.fleet/
+
+
+logs
+*.log
+npm-debug.log*
+*.json
+*.config.js

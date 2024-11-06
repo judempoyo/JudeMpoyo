@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth focus:scroll-auto">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="./dist/css/style.css" rel="stylesheet" />
+    <!-- <link href="./dist/css/output.css" rel="stylesheet" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./dist/images/judepic.jpeg" type="image/x-icon">
+    <title>Jude Mpoyo</title>
+    <style>
+          </style>
+</head>
+
+<body class="text-white bg-gray-900">
+    <header class="flex items-center justify-between p-6 shadow-xl ">
+        <nav class="fixed z-40 flex items-center  text-center justify-between w-full md:self-center  md:w-screen">
+            <a href="#home" class="hidden px-6 text-3xl font-bold text-[rgba(0,184,148,1)] md:flex">Jude Mpoyo</a>
+            <div class="flex md:items-center md:text-center md:mx-auto">
+                <div class="hidden md:flex space-x-4">
+                    <a href="#home"
+                        class="nav-link text-xl  hover:text-[rgba(0,184,148,1)] transition mx-4">Home</a>
+                    <a href="#about"
+                        class="nav-link text-xl  hover:text-[rgba(0,184,148,1)] transition mx-4">About</a>
+                    <a href="#projects"
+                        class="nav-link text-xl  hover:text-[rgba(0,184,148,1)] transition mx-4">Projects</a>
+                    <a href="#contact"
+                        class="nav-link text-xl  hover:text-[rgba(0,184,148,1)] transition mx-4">Contact</a>
+                </div>
+
+                <div class="flex items-center transition-all duration-300 md:hidden">
+                    <button class="outline-none mobile-menu-button" onclick="toggleMobileMenu()">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-[rgba(0,184,148,1)]" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <div class="mobile-menu">
+                        <ul class="flex flex-col">
+                            <li class="mobile-menu-item">
+                                <a href="#home"
+                                    class="block px-2 py-4 transition duration-300 text-md hover:bg-[rgba(0,184,148,1)]">Home</a>
+                            </li>
+                            <li class="mobile-menu-item">
+                                <a href="#about"
+                                    class="block px-2 py-4 transition duration-300 text-md hover:bg-[rgba(0,184,148,1)]">About</a>
+                            </li>
+                            <li class="mobile-menu-item">
+                                <a href="#projects"
+                                    class="block px-2 py-4 transition duration-500 text-md hover:bg-[rgba(0,184,148,1)]k ">Projects</a>
+                            </li>
+                            <li class="mobile-menu-item">
+                                <a href="#contact"
+                                    class="block px-2 py-4 transition duration-300 text-md hover:bg-[rgba(0,184,148,1)]">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <button onclick="toggleTheme()" class="button fixed z-40 p-2 bg-[rgba(0,184,148,1)] rounded-full right-5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+        </button>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <section id="home"
+            class="relative flex flex-col items-center justify-center h-screen overflow-hidden bg-gradient-to-r from-blue-500 to-teal-500 rounded-br-full rounded-bl-2xl rounded-tl-full rounded-tr-2xl shadow-2xl shadow-teal-500">
+            <!-- Decorative Background Shapes -->
+            <div
+                class="absolute inset-0 bg-white rounded-full shadow-2xl transform scale-75 -translate-x-1/4 -translate-y-1/4 opacity-30">
+            </div>
+            <div
+                class="absolute inset-0 bg-white rounded-full shadow-2xl transform scale-50 translate-x-1/4 translate-y-1/4 opacity-20">
+            </div>
+            <div
+                class="absolute inset-0 bg-white rounded-full shadow-2xl transform scale-90 translate-x-1/2 translate-y-1/2 opacity-15">
+            </div>
+            <div
+                class="absolute inset-0 bg-white rounded-full shadow-2xl transform scale-60 -translate-x-1/2 translate-y-1/4 opacity-25">
+            </div>
+            <div
+                class="absolute inset-0 bg-white rounded-full shadow-2xl transform scale-40 translate-x-1/4 -translate-y-1/2 opacity-10">
+            </div>
+
+            <div class="absolute inset-0 bg-black opacity-30"></div>
+
+            <div class="z-10 text-center relative">
+                <h1 class="mt-4 mb-4 text-5xl font-bold tracking-wider text-white transition duration-500 hover:text-teal-300"
+                    data-aos="fade-up">Hi !, I am</h1>
+                <h1 class="mt-4 mb-4 text-5xl font-bold tracking-wider text-[rgba(0,184,148,1)] transition duration-500 hover:text-white"
+                    data-aos="fade-down">Jude Mpoyo</h1>
+                <p class="mb-8 text-2xl text-white" data-aos="fade-up">
+                    <span class="typing-effect"></span>
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="https://wa.me/+243975889135" target="_blank"
+                        class="bg-teal-600 text-sm md:text-xl text-white py-3 px-6 rounded-full shadow-2xl hover:bg-teal-500 transition duration-300 transform hover:scale-105 hover:shadow-xl flex items-center space-x-2">
+                        <i class="fa-whatsapp fab"></i>
+                        <span>Contact Me</span>
+                    </a>
+                    <a href="./dist/files/jude mpoyo resume.pdf" download
+                        class="bg-teal-600 text-sm md:text-xl text-white py-3 px-6 rounded-full shadow-2xl hover:bg-teal-500 transition duration-300 transform hover:scale-105 hover:shadow-xl flex items-center space-x-2">
+                        <i class="fa fa-download"></i>
+                        <span>Download My Resume</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="my-10 p-6 shadow-xl rounded-lg">
+            <div class="transition-all duration-300">
+                <h2 class="mb-12 text-3xl md:text-5xl font-bold text-center text-[rgba(0,184,148,1)]"
+                    data-aos="fade-up transition-all duration-300">About Me</h2>
+                <div class="flex flex-wrap items-center justify-center transition-all duration-300">
+                    <div class="z-10 w-full mb-8 transition-all duration-300 md:mb-0 md:w-1/3">
+                        <img src="./dist/images/judepic.jpeg" alt="Jude Mpoyo" id="image-hover-effect"
+                            class="mx-auto transition-all ease-in-out delay-1000 transform rounded-full rounded-br-none cursor-pointer duration-2000 w -60 h-60 md:w-72 md:h-72"
+                            data-aos="fade-up">
+                    </div>
+                    <div class="w-full transition-all duration-300 md:pl-12 md:w-2/3" data-aos="fade-up">
+                        <p class="mb-6 text-sm leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-2xl"
+                            data-aos="fade-down">
+                            A dedicated web developer with a passion for creating innovative and user-friendly digital
+                            experiences.
+                            With a solid foundation in front-end technologies such as HTML, CSS, and JavaScript, I
+                            strive
+                            to build
+                            responsive and visually engaging websites and applications.
+
+
+                        </p>
+                        <p class="mb-6 text-sm leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-2xl"
+                            data-aos="fade-left">
+                            In addition to my front-end skills, I have a strong command of back-end technologies
+                            including
+                            PHP, and
+                            MySQL, allowing me to develop robust and scalable server-side solutions using MVC and OOP .
+                            I
+                            am also
+                            experienced in mobile and desktop development, I'm able to effectively self-manage during
+                            independent
+                            projects, as well as collaborate as part of a productive team.
+                        </p>
+                        <p class="text-sm leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-2xl"
+                            data-aos="fade-right">
+                            I am committed to staying updated with the latest industry trends and best practices, and I
+                            am
+                            always
+                            eager to take on new challenges. Feel free to explore my portfolio to see some of my skills.
+                            Thank you for
+                            taking the time to learn more about me!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="my-10 p-6 shadow-xl rounded-lg">
+            <div class="container px-6 mx-auto">
+                <h2 class="mb-12 text-3xl md:text-5xl font-bold text-center text-[rgba(0,184,148,1)] transition-all duration-300" data-aos="fade-left">My Skills</h2>
+        
+                <!-- Programming Skills -->
+                <h3 class="mb-6 text-2xl font-bold text-[rgba(0,184,148,1)] transition-all duration-300" data-aos="fade-right">Programming Skills</h3>
+                <div class="grid grid-cols-2 gap-4 mb-12 transition-all duration-300 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-8">
+        
+                    <!-- Skill Cards -->
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">PHP</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="Laravel" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Laravel</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Flutter</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Dart</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Python</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">JavaScript</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]"> HTML</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">CSS</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Bootstrap</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Git</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">GitHub</span>
+                    </div>
+        
+                    <!-- Additional Skills -->
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">npm</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/composer/composer-original.svg" alt="Composer" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Composer</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">MySQL</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Firebase</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer  hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw .githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Ubuntu</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Tailwind CSS</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/qt/qt-original.svg" alt="Qt" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Qt</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Postman</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">VS Code</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">C++</span>
+                    </div>
+        
+                </div>
+        
+                <!-- Tools & Other Skills -->
+                <h3 class="mb-6 text-2xl font-bold text-[rgba(0,184,148,1)] transition-all duration-300" data-aos="fade-up-left">Tools & Other Skills</h3>
+                <div class="grid grid-cols-2 gap-4 mb-12 transition-all duration-300 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-8">
+        
+                    <!-- Existing Tools & Other Skills -->
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Git</span>
+                    </div>
+        
+                    <!-- Additional Tools & Other Skills -->
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/trello/trello-original.svg" alt="Trello" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Trello</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scrum/scrum-original.svg" alt="Scrum" class="w-16 h-16 mx-auto">
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Agile Methodology (Scrum)</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-comment-alt text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Communication</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-users text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Teamwork</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-clock text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Time Management</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-lightbulb text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Problem-Solving</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-sync-alt text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Adaptability</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-crown text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Leadership</span>
+                    </div>
+                    <div class="skill-card hover:text-[rgba(0,184,148,1)] w-24 h-24 md:w-36 md:h-36 mx-auto flex flex-col items-center justify-center rounded-3xl bg-gray-800 cursor-pointer hover:translate-y-3 transition-transform duration-300" data-aos="fade-left">
+                        <i class="fas fa-handshake text-lg font-bold" aria-hidden="true"></i>
+                        <span class="text-xs font-bold hover:text-[rgba(0,184,148,1)]">Collaboration</span>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </section>
+        <section id="projects" class="my-10 p-6 shadow-xl rounded-lg">
+            <h1 class="mb-12 text-3xl md:text-5xl font-bold text-center text-[rgba(0,184,148,1)] transition-all duration-300"
+                data-aos="fade-down-right">My Projects</h1>
+        
+            <div class="grid grid-cols-1 gap-8 transition-all duration-300 md:grid-cols-2">
+        
+                <!-- Calculator Project Card -->
+                <div class="m-5 overflow-hidden transition-all duration-300 bg-gray-800 rounded-lg shadow-lg project hover:scale-105 relative"
+                    data-aos="fade-left">
+                    <video class="absolute top-0 left-0 w-full h-48 object-cover hidden" id="project-video-2" loop muted>
+                        <source src="./dist/videos/jumpcalculator.webm" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="./dist/images/jumpCalculator.png" alt="JumpCalculator"
+                        class="object-cover w-full h-48">
+                    <div
+                        class="absolute p-2 text-xs font-bold uppercase transition-all duration-300 bg-[rgba(0,184,148,1)] rounded-full top-4 right-4">
+                        Web App
+                    </div>
+                    <div class="p-6 transition-all duration-300">
+                        <h3 class="mb-2 text-xl font-semibold transition-all duration-300">JumpCalculator</h3>
+                        <p class="mb-4 text-gray-400 transition-all duration-300" data-aos="fade-left">A simple yet powerful calculator built using JavaScript and Tailwind CSS. Perform basic arithmetic operations with ease.</p>
+                        <a href="https://github.com/judempoyo/JumpCalculator" target="_blank" class="text-[rgba(0,184,148,1)] transition duration-300 hover:text-[rgba(0,184,148,1)]">View JumpCalculator</a>
+                    </div>
+                </div>
+        
+                <!-- JumpQuinc Project -->
+                <div class="m-5 overflow-hidden transition-all duration-300 bg-gray-800 rounded-lg shadow-lg project hover:scale-105 relative"
+                    data-aos="fade-right">
+                    <video class="absolute top-0 left-0 w-full h-48 object-cover hidden" id="project-video-2" loop muted>
+                        <source src="./dist/videos/JumpQuinc.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="./dist/images/JumpQuinc.png" alt="JumpQuinc"
+                        class="object-cover w-full h-48">
+                    <div
+                        class="absolute p-2 text-xs font-bold uppercase transition-all duration-300 bg-[rgba(0,184,148,1)] rounded-full top-4 right-4">
+                        Desktop Software
+                    </div>
+                    <div class="p-6 transition-all duration-300">
+                        <h3 class="mb-2 text-xl font-semibold transition-all duration-300">JumpQuinc</h3>
+                        <p class="mb-4 text-gray-400 transition-all duration-300" data-aos="fade-left">Developed a comprehensive management system for a hardware store using Windev. This desktop software streamlines inventory management, sales tracking, and customer management.</p>
+                        <a href="https://wa.me/+243975889135?text=hi&jude,&i&want&to&know&more&about&JUMPQUINC" class="text-[rgba(0,184,148,1)] transition duration-300 hover:text-[rgba(0,184,148,1)]">Learn More</a>
+                    </div>
+                </div>
+        
+                <!-- AgriProject-->
+                <div class="m-5 overflow-hidden transition-all duration-300 bg-gray-800 rounded-lg shadow-lg project hover:scale-105 relative"
+                    data-aos="fade-left">
+                    <video class="absolute top-0 left-0 w-full h-48 object-cover hidden" id="project-video- 2" loop muted>
+                        <source src="./dist/videos/agriproject.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="./dist/images/agriproject.png" alt="AgriProject"
+                        class="object-cover w-full h-48">
+                    <div
+                        class="absolute p-2 text-xs font-bold uppercase transition-all duration-300 bg-[rgba(0,184,148,1)] rounded-full top-4 right-4">
+                        Web App
+                    </div>
+                    <div class="p-6 transition-all duration-300">
+                        <h3 class="mb-2 text-xl font-semibold transition-all duration-300">AgriProject</h3>
+                        <p class="mb-4 text-gray-400 transition-all duration-300" data-aos="fade-left">Built an online sales platform for agricultural products using Laravel. This platform enables farmers to showcase and sell their products, and customers to purchase them easily. (Currently under development)</p>
+                        <a href="https://github.com/judempoyo/AGRI-PROJECT" target="_blank" class="text-[rgba(0,184,148,1)] transition duration-300 hover:text-[rgba(0,184,148,1)]">View Agri-Project</a>
+                    </div>
+                </div>
+        
+                <!-- Mobile Application Project -->
+                <div class="m-5 overflow-hidden transition-all duration-300 bg-gray-800 rounded-lg shadow-lg project hover:scale-105 relative"
+                    data-aos="fade-right">
+                    <img src="https://source.unsplash.com/random/800x600?mobile" alt="Mobile Application"
+                        class="object-cover w-full h-48">
+                    <div
+                        class="absolute p-2 text-xs font-bold uppercase transition-all duration-300 bg-[rgba(0,184,148,1)] rounded-full top-4 right-4">
+                        Mobile App
+                    </div>
+                    <div class="p-6 transition-all duration-300">
+                        <h3 class="mb-2 text-xl font-semibold transition-all duration-300">Mobile Application</h3>
+                        <p class="mb-4 text-gray-400 transition-all duration-300" data-aos="fade-left">Developed a mobile application for a client using Flutter. During this project, I gained experience with Flutter's architecture, widget management, and state management. (Details cannot be disclosed due to confidentiality. Additional images and videos will be added later.)</p>
+                        <a href="https://wa.me/+243975889135?text=hi&jude,&i&want&to&know&more&about&The&mobile&app&that&your&are&developped" class="text-[rgba(0,184,148,1)] transition duration-300 hover:text-[rgba(0,184,148,1)]">Learn More</a>
+                    </div>
+                </div>
+        
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+        <section id="contact" class="my-10 p-6 shadow-xl rounded-lg">
+            <div class="container px-6 mx-auto transition-all duration-300">
+                <h2 class="mb-8 text-3xl md:text-5xl font-bold text-center text-[rgba(0,184,148,1)] transition-all duration-300"
+                    data-aos="fade-up-left">Contact Me</h2>
+                <div class="flex justify-center mt-4 space-x-12 transition-all duration-300">
+                    <a href="https://www.linkedin.com/in/jude-mpoyo-4316642a3" target="_blank"
+                        class="flex items-center text-[rgba(0,184,148,1)] transition-all duration-300 hover:text-[rgba(0,184,148,1)] hover:scale-110"
+                        data-aos="fade-left">
+                        <i class="text-4xl fa-linkedin-in fab"></i>
+                    </a>
+                    <a href="https://github.com/judempoyo" target="_blank"
+                        class="flex items-center text-[rgba(0,184,148,1)] transition-all duration-300 hover:text-[rgba(0,184,148,1)] animate__animated animate__fadeIn hover:scale-110"
+                        data-aos="fade-left">
+                        <i class="text-4xl fa-github fab"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to top button -->
+        <button id="back-to-top"
+            class="fixed p-2 text-white bg-[rgba(0,184,148,1)] rounded-full right-4 bottom-4 hover:bg-[rgba(0,184,148,1)]"
+            data-aos="flip-up">
+            <a href="#top" class="flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+
+                </svg>
+            </a>
+        </button>
+
+        <button
+            class="fixed p-2 text-white bg-[rgba(0,184,148,1)] rounded-t-full rounded-r-full shadow-sm right-24 bottom-4 hover:bg-[rgba(0,184,148,1)]"
+            id="whatsapp-button" data-aos="flip-down">
+            <a href="https://wa.me/+243975889135" target="_blank" class="flex items-center justify-center">
+
+                <i class="w-8 h-8 fa-whatsapp fab"></i>
+
+            </a>
+        </button>
+    </main>
+
+
+    <footer class="p-6 text-center">
+        <p class="" data-aos="fade-right">&copy; 2023 Jude Mpoyo</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./dist/js/script.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+
+       
+    </script>
+</body>
+
+</html>
