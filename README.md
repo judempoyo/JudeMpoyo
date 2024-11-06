@@ -32,7 +32,7 @@ To view the portfolio locally:
 
 ## Access the Portfolio
 
-You can also check out my portfolio online at: [link to your online portfolio].
+You can also check out my portfolio online at: https://judempoyo.github.io/JudeMpoyo-site/
 
 ## License
 
