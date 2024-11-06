@@ -1,6 +1,7 @@
 node_modules/
 .fleet/
 
+old_index.html
 
 logs
 *.log
