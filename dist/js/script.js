@@ -1,14 +1,3 @@
-const imageEffect = document.getElementById("image-hover-effect");
-
-imageEffect.addEventListener("mouseenter", () => {
-    imageEffect.classList.add("hover:rounded-br-full", "hover:rounded-bl-none", "md:hover:h-80",
-        "hover:shadow-[0_0_30px_5px_rgba(0,184,148,1)]");
-})
-imageEffect.addEventListener("mouseleave", () => {
-    imageEffect.classList.remove("hover:rounded-br-full", "hover:rounded-bl-none", "md:hover:h-80",
-        "hover:shadow-[0_0_30px_5px_rgba(0,184,148,1)]");
-
-})
 
 // Function to toggle dark/light mode
 function toggleTheme() {
@@ -165,19 +154,20 @@ function type() {
 type();
 
  // Function to handle video play on hover
-const projectCards = document.querySelectorAll('.project');
+ const projectCards = document.querySelectorAll('.project');
 
-projectCards.forEach((card, index) => {
-    const video = card.querySelector('video');
-
-    card.addEventListener('mouseenter', () => {
-        video.classList.remove('hidden'); // Show the video
-        video.play(); // Play the video
-    });
-
-    card.addEventListener('mouseleave', () => {
-        video.pause(); // Pause the video
-        video.currentTime = 0; // Reset to the start
-        video.classList.add('hidden'); // Hide the video
-    });
-});
+ projectCards.forEach((card) => {
+     const video = card.querySelector('video');
+ 
+     // Show video on click for mobile
+     card.addEventListener('click', () => {
+         if (video.classList.contains('hidden')) {
+             video.classList.remove('hidden'); // Show the video
+             video.play(); // Play the video
+         } else {
+             video.pause(); // Pause the video
+             video.currentTime = 0; // Reset to the start
+             video.classList.add('hidden'); // Hide the video
+         }
+     });
+ });
