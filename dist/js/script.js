@@ -154,7 +154,7 @@ function type() {
 type();
 
  // Function to handle video play on hover
- const projectCards = document.querySelectorAll('.project');
+/*  const projectCards = document.querySelectorAll('.project');
 
  projectCards.forEach((card) => {
      const video = card.querySelector('video');
@@ -171,3 +171,22 @@ type();
          }
      });
  });
+ */
+
+    function openModal(videoSrc) {
+        const modal = document.getElementById('videoModal');
+        const modalVideo = document.getElementById('modalVideo');
+        const modalVideoSource = document.getElementById('modalVideoSource');
+        
+        modalVideoSource.src = videoSrc;
+        modalVideo.load();
+        modal.classList.remove('hidden');
+    }
+
+    document.getElementById('closeModal').onclick = function() {
+        const modal = document.getElementById('videoModal');
+        modal.classList.add('hidden');
+        const modalVideo = document.getElementById('modalVideo');
+        modalVideo.pause();
+        modalVideo.currentTime = 0; // Reset video to start
+    }
