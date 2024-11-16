@@ -153,7 +153,7 @@ function type() {
 
 type();
 
- // Function to handle video play on hover
+// Function to handle video play on hover
 /*  const projectCards = document.querySelectorAll('.project');
 
  projectCards.forEach((card) => {
@@ -173,20 +173,26 @@ type();
  });
  */
 
-    function openModal(videoSrc) {
-        const modal = document.getElementById('videoModal');
-        const modalVideo = document.getElementById('modalVideo');
-        const modalVideoSource = document.getElementById('modalVideoSource');
-        
-        modalVideoSource.src = videoSrc;
-        modalVideo.load();
-        modal.classList.remove('hidden');
-    }
+function openModal(videoSrc) {
+    const modal = document.getElementById('videoModal');
+    const modalVideo = document.getElementById('modalVideo');
+    const modalVideoSource = document.getElementById('modalVideoSource');
 
-    document.getElementById('closeModal').onclick = function() {
-        const modal = document.getElementById('videoModal');
-        modal.classList.add('hidden');
-        const modalVideo = document.getElementById('modalVideo');
-        modalVideo.pause();
-        modalVideo.currentTime = 0; // Reset video to start
-    }
+    modalVideoSource.src = videoSrc;
+    modalVideo.load();
+    modal.classList.remove('hidden');
+}
+
+document.getElementById('closeModal').onclick = function () {
+    const modal = document.getElementById('videoModal');
+    modal.classList.add('hidden');
+    const modalVideo = document.getElementById('modalVideo');
+    modalVideo.pause();
+    modalVideo.currentTime = 0; // Reset video to start
+}
+
+
+    window.addEventListener('load', function() {
+        const loader = document.getElementById('loader');
+        loader.style.display = 'none'; // Hide the loader
+    });
