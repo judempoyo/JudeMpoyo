@@ -1,0 +1,5 @@
+# Allow all crawlers access to the entire site
+User -agent: *
+Disallow:
+
+Sitemap: https://judempoyo.github.io/JudeMpoyo-site/sitemap.xml
