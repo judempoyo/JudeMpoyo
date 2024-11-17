@@ -56,7 +56,7 @@ window.onload = function () {
     const theme = localStorage.getItem("theme");
     if (theme === "light") {
         toggleTheme();
-    }
+    }};
 
     // Hide the back to top button initially
     const backToTopButton = document.getElementById("back-to-top");
@@ -122,7 +122,7 @@ window.onload = function () {
             });
         });
     });
-};
+
 
 const text = "Web and Mobile Developer";
 const typingEffect = document.querySelector(".typing-effect");
