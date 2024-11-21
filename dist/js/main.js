@@ -18,9 +18,7 @@ function toggleTheme() {
   const inputs = document.querySelectorAll("input, textarea");
   inputs.forEach((input) => {
       input.classList.toggle("bg-gray-700"); // Dark input background
-      input.classList.toggle("bg-white"); // Light input background
-      input.classList.toggle("text-white"); // Dark input text
-      input.classList.toggle("text-gray-900"); // Light input text
+      input.classList.toggle("bg-gray-400"); // Light input background// Light input text
       input.classList.toggle("border-gray-700"); // Dark input border
       input.classList.toggle("border-gray-300"); // Light input border
   });
@@ -106,28 +104,31 @@ mobileMenuLinks.forEach(link => {
     });
 });
 
-
 const typingEffect = document.querySelector(".typing-effect");
-const text = typingEffect.innerHTML.toString();
-let charIndex = 0;
+const texts = ['Web Developer', 'Mobile Developer'];
+let textIndex = 0; // Index of the current text
+let charIndex = 0; // Index of the current character
 let isDeleting = false;
 
 function type() {
+    const currentText = texts[textIndex];
+
     if (isDeleting) {
         // Remove a character
-        typingEffect.textContent = text.substring(0, charIndex - 1);
+        typingEffect.textContent = currentText.substring(0, charIndex - 1);
         charIndex--;
         if (charIndex <= 0) {
             isDeleting = false; // Start typing again
+            textIndex = (textIndex + 1) % texts.length; // Move to the next text
             setTimeout(type, 1500); // Pause before starting to type again
         } else {
             setTimeout(type, 150); // Typing speed
         }
     } else {
         // Add a character
-        typingEffect.textContent = text.substring(0, charIndex + 1);
+        typingEffect.textContent = currentText.substring(0, charIndex + 1);
         charIndex++;
-        if (charIndex === text.length) {
+        if (charIndex === currentText.length) {
             isDeleting = true; // Start deleting after completing the text
         }
         setTimeout(type, 100); // Typing speed
@@ -135,7 +136,6 @@ function type() {
 }
 
 type();
-
 
 function openModal(videoSrc) {
     const modal = document.getElementById('videoModal');
@@ -155,4 +155,5 @@ document.getElementById('closeModal').onclick = function () {
     modalVideo.pause();
     modalVideo.currentTime = 0; // Reset video to start
 }
+
 

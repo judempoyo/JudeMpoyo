@@ -69,7 +69,7 @@ body {
   }
 }
 
-/* .typing-effect {
+.typing-effect {
   border-right: 2px solid;
   white-space: nowrap;
   overflow: hidden;
@@ -95,7 +95,7 @@ body {
   50% {
     border-color: #38b2ac;
   }
-} */
+} 
 
 .background-shapes {
   position: absolute;
@@ -115,8 +115,12 @@ body {
 
 
 
-
 #image-hover-effect {
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
   -webkit-transition: transform 0.5s ease, box-shadow 0.3s ease;
   -moz-transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -312,33 +316,6 @@ body {
 }
 
 
-.typing-effect {
-  border-right: 2px solid var(--typing-color);
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
-  -webkit-animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
-
-  50% {
-    border-color: var(--typing-color);
-  }
-}
 
 .circle-container {
   width: 300px; /* Adjust size as needed */
