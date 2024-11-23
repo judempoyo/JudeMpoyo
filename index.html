@@ -66,13 +66,13 @@
         </svg>
       </button>
       <nav id="nav-menu" class="hidden md:flex space-x-4">
-        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700" href="#home">Home</a>
-        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700" href="#about">About</a>
-        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700" href="#skills">Skills</a>
-        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700" href="#projects">Projects</a>
+        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700 my-auto-" href="#home">Home</a>
+        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700 my-auto-" href="#about">About</a>
+        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700 my-auto-" href="#skills">Skills</a>
+        <a class="hover:text-teal-700 hover:border-b-2 border-teal-700 my-auto-" href="#projects">Projects</a>
         <a class="hover:text-teal-700 hover:border-b-2 border-teal-700" href="#contact">Contact</a>
       </nav>
-      <button onclick="toggleTheme()" class="button relative z-40 p-2 bg-teal-700 rounded-full right-5">
+      <button onclick="toggleTheme()" class="button relative z-40 p-2 bg-teal-700 text-white rounded-full right-5">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
@@ -112,8 +112,8 @@
       </div>
     </div>
     <section
-    class="my-8  px-2 fade-in relative flex md:flex-row items-center justify-center  h-screen shadow-2xl  overflow-hidden" id="home">
-    <div class="md:w-2/4 w-full overflow-hidden h-2/3">
+    class="my-8  px-2 fade-in relative flex md:flex-row items-center justify-center place-content-center  h-screen shadow-2xl  overflow-hidden" id="home">
+    <div class="md:w-2/4 w-full overflow-hidden h-2/3 items-center justify-center place-content-center ">
       <h3 class="text-3xl md:text-5xl tracking-wider mt-2 ">Hi, am </h3>
       <h1 class="text-6xl md:text-8xl tracking-wider mt-2 font-extrabold drop-shadow-2xl bg-gradient-to-bl  from-teal-600 to-gray-600 bg-clip-text text-transparent">Jude Mpoyo</h1>
       <h3 class="text-3xl md:text-5xl tracking-wider mt-2 ">I'm a <span class="typing-effect font-bold drop-shadow-2xl bg-gradient-to-bl  from-teal-600 to-gray-600 bg-clip-text text-transparent">Web
@@ -157,14 +157,14 @@
         <img alt="Jude mpoyo pic" class="rounded-full w-48 h-48 mx-auto ima md:mx-0 hover-grow" id="image-hover-effect"
           height="200" src="./dist/images/judepic.png" width="200" />
         <div class="mt-6 md:mt-0 md:ml-6 slide-up">
-          <p class="mb-6 leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-lg"
+          <p class="mb-6 leading-relaxed tracking-wider   transition-all duration-300 md:text-lg"
             >
             I am a dedicated web developer with a strong passion for back-end development and creating
             innovative digital experiences. My expertise lies in building robust server-side solutions
             using PHP and MySQL, particularly with the Laravel framework, where I apply MVC and OOP
             principles to develop scalable applications.
           </p>
-          <p class="mb-6 leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-lg"
+          <p class="mb-6 leading-relaxed tracking-wider   transition-all duration-300 md:text-lg"
             >
             In mobile development, I utilize Flutter to create cross-platform applications that deliver
             seamless user experiences. On the front end, I leverage Tailwind CSS to design responsive
@@ -176,7 +176,7 @@
             and interactive web applications. I thrive in both independent and collaborative
             environments, effectively managing projects while contributing to team success.
           </p>
-          <p class="leading-relaxed tracking-wider text-justify transition-all duration-300 md:text-lg"
+          <p class="leading-relaxed tracking-wider   transition-all duration-300 md:text-lg"
             >
             I am committed to staying updated with the latest industry trends and best practices, always
             eager to embrace new challenges. Feel free to explore my portfolio to see examples of my
@@ -364,9 +364,9 @@
             <h3 class="text-xl font-bold">
               Jump Calculator
             </h3>
-            A simple yet powerful calculator built using JavaScript and
+            <p class="mb-4 ">A simple yet powerful calculator built using JavaScript and
             Tailwind CSS. Perform basic arithmetic operations with ease.</p>
-            <p class="mb-4 italic"><strong>Skills Used:</strong> JavaScript, Tailwind CSS</p>
+            <p class="mb-4"><strong>Skills Used:</strong> JavaScript, Tailwind CSS</p>
             <div class="flex flex-row justify-between">
               <a class="text-teal-700 hover:underline" href="https://github.com/judempoyo/JumpCalculator"
                 target="_blank">
@@ -387,10 +387,9 @@
             <h3 class="text-xl font-bold">
               JumpQuinc
             </h3>
-            <p class="mb-4 ">Developed a comprehensive management system for a hardware store
-              using Windev. This software streamlines inventory management, sales tracking, and customer
-              management.</p>
-            <p class="mb-4 italic"><strong>Skills Used:</strong> Windev, Software Development</p>
+            <p class="mb-4 ">A comprehensive management system for a hardware store
+              using Windev. This software streamlines inventory management, sales tracking, and customer management.</p>
+            <p class="mb-4"><strong>Skills Used:</strong> Windev, Software Development</p>
             <div class="flex flex-row justify-between">
               <a class="text-teal-700 hover:underline"
                 href="https://wa.me/+243975889135?text=Hi jude,I want to know more about JUMPQUINC software">
@@ -412,10 +411,10 @@
             <h3 class="text-xl font-bold">
               AgriProject
             </h3>
-            <p class="mb-4 ">Built an online sales platform for agricultural products using
+            <p class="mb-4 ">An online sales platform for agricultural products using
               Laravel. This platform enables farmers to showcase and sell their products easily.
               (Currently under development)</p>
-            <p class="mb-4 italic"><strong>Skills Used:</strong> Laravel, PHP, MySQL</p>
+            <p class="mb-4"><strong>Skills Used:</strong> Laravel, PHP, MySQL</p>
             <div class="flex flex-row justify-between">
 
               <a class="text-teal-700 hover:underline" href="https://github.com/judempoyo/AGRI-PROJECT" target="_blank">
@@ -439,7 +438,7 @@
               experience with Flutter's architecture, widget management, and state management. (Details
               cannot be disclosed due to confidentiality. Additional images and videos will be added
               later.)</p>
-            <p class="mb-4 italic"><strong>Skills Used:</strong> Flutter, Firebase</p>
+            <p class="mb-4"><strong>Skills Used:</strong> Flutter, Firebase</p>
             <a class="text-teal-700 hover:underline"
               href="https://wa.me/+243975889135?text=hi jude, I want to know more about The mobile app that your are developped">
               Learn more
@@ -472,40 +471,25 @@
             </div>
 
           </div>
-          <form class="bg-gray-800  shadow-md rounded px-6 pt-4 pb-6 mb-4">
+          <form id="contact-form" class="bg-gray-800 shadow-md rounded px-6 pt-4 pb-6 mb-4" onsubmit="sendEmail(event)">
             <div>
-              <span class="uppercase text-sm font-bold">
-                Full Name
-              </span>
-              <input
-                class="w-full bg-gray-700  mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400"
-                type="text" placeholder="Enter your Name" required />
+                <span class="uppercase text-sm font-bold">Full Name</span>
+                <input class="w-full bg-gray-700 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400" type="text" name="name" placeholder="Enter your Name" required />
             </div>
             <div class="mt-8">
-              <span class="uppercase text-sm font-bold">
-                Email
-              </span>
-              <input
-                class="w-full bg-gray-700 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400 "
-                type="email" placeholder="Enter your email address" required />
-            </div>
-
-            <div class="mt-8">
-              <span class="uppercase text-sm font-bold">
-                Message
-              </span>
-              <textarea
-                class="w-full h-32 bg-gray-700  mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400"
-                placeholder="Enter your Message" required></textarea>
+                <span class="uppercase text-sm font-bold">Email</span>
+                <input class="w-full bg-gray-700 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400" type="email" name="email" placeholder="Enter your email address" required />
             </div>
             <div class="mt-8">
-              <button
-                class="uppercase text-sm font-bold tracking-wide bg-teal-700 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:bg-teal-700"
-                type="submit">
-                Send Message
-              </button>
+                <span class="uppercase text-sm font-bold">Message</span>
+                <textarea class="w-full h-32 bg-gray-700 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-teal-400" name="message" placeholder="Enter your Message" required></textarea>
             </div>
-          </form>
+            <div class="mt-8">
+                <button class="uppercase text-sm font-bold tracking-wide bg-teal-700 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:bg-teal-700" type="submit">
+                    Send Message
+                </button>
+            </div>
+        </form>
         </div>
 
       </div>
@@ -534,6 +518,7 @@
   </footer>
   <script src="./dist/js/main.js"></script>
 
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script
 
 </body>
 

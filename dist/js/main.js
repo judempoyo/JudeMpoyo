@@ -105,7 +105,7 @@ mobileMenuLinks.forEach(link => {
 });
 
 const typingEffect = document.querySelector(".typing-effect");
-const texts = ['Web Developer', 'Mobile Developer'];
+const texts = [' Web Developer', ' Mobile Developer'];
 let textIndex = 0; // Index of the current text
 let charIndex = 0; // Index of the current character
 let isDeleting = false;
@@ -157,3 +157,22 @@ document.getElementById('closeModal').onclick = function () {
 }
 
 
+    (function(){
+        emailjs.init("2LkRtr1DXzl-ZD7no"); // Replace with your EmailJS user ID
+    })();
+
+    function sendEmail(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const form = document.getElementById("contact-form");
+        const formData = new FormData(form);
+
+        emailjs.sendForm('service_udjmo1x', 'template_39rle2q', formData)
+            .then(() => {
+                alert('Email sent successfully!');
+                form.reset(); // Reset the form after successful submission
+            }, (error) => {
+                alert('Failed to send email. Please try again later.');
+                console.error('Email sending error:', error);
+            });
+    }

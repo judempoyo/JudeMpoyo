@@ -116,11 +116,12 @@ body {
 
 
 #image-hover-effect {
-  transform: rotate(-30deg);
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  -o-transform: rotate(-30deg);
+  box-shadow: 0 5px 20px #0f766e;
+  transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
   -webkit-transition: transform 0.5s ease, box-shadow 0.3s ease;
   -moz-transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -129,11 +130,39 @@ body {
 }
 
 #image-hover-effect:hover {
-  transform: perspective(500px) rotateY(10deg) rotateX(10deg);
+  transform: perspective(500px) rotateY(35deg) rotateX(35deg);
   box-shadow: 0 10px 30px #0f766e ;
-
+  -webkit-transform: perspective(500px) rotateY(35deg) rotateX(35deg);
+  -moz-transform: perspective(500px) rotateY(35deg) rotateX(35deg);
+  -ms-transform: perspective(500px) rotateY(35deg) rotateX(35deg);
+  -o-transform: perspective(500px) rotateY(35deg) rotateX(35deg);
 }
 
+.circle-container {
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the div a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+  overflow: visible; /* Allows the image to exceed the circle */
+}
+
+.image {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 128, 128, 0.7);
+  position: absolute;
+  top: -30px;
+  transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+}
 
 /* Loader Styles */
 #loader {
@@ -317,28 +346,3 @@ body {
 
 
 
-.circle-container {
-  width: 300px; /* Adjust size as needed */
-  height: 300px; /* Adjust size as needed */
-  background-color: teal; /* Circle color */
-  border-radius: 50%; /* Makes the div a circle */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: visible; /* Allows the image to exceed the circle */
-}
-
-.image {
-  width: 330px;
-  height: 330px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 10px rgba(0, 128, 128, 0.7);
-  position: absolute;
-  top: -30px;
-  transform: rotate(-30deg);
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  -o-transform: rotate(-30deg);
-}
