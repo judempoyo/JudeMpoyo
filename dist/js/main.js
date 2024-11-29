@@ -176,3 +176,5 @@ document.getElementById('closeModal').onclick = function () {
                 console.error('Email sending error:', error);
             });
     }
+
+  
