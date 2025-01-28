@@ -1,6 +1,6 @@
 # Hi, I'm Jude Mpoyo 👋
  <h3>Web and Mobile developer </h3>
-<img src="https://github.com/user-attachments/assets/010a5a78-65ed-421f-a556-f97ecf64ff17" width="150" height="150" align="center"/>
+<!--<img src="https://github.com/user-attachments/assets/010a5a78-65ed-421f-a556-f97ecf64ff17" width="150" height="150" align="center"/> -->
 
 ## 💫 About Me:
  🌱 I’m currently learning React, Docker<br>💬 Ask me about Laravel, flutter,PHP,react<br>👯 I’m looking to collaborate on Laravel or react project<br>😍 I love anime, reading and 💙code💙<br>⚡ Fun fact: Never let failures get you down. Every mistake is an opportunity to learn and improve.<br>📫 How to reach me mpoyojude0@gmail.com
