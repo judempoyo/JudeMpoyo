@@ -14,7 +14,6 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=judempoyo&theme=vue-dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=judempoyo&theme=vue-dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
 [![](https://visitcount.itsvg.in/api?id=judempoyo&icon=0&color=3)](https://visitcount.itsvg.in)
 
   ## 💰 By me a coffee
