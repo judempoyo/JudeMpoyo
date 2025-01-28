@@ -4,7 +4,7 @@
  🌱 I’m currently learning React, Docker<br>💬 Ask me about Laravel, flutter,PHP,react<br>👯 I’m looking to collaborate on Laravel or react project<br>😍 I love anime, reading and 💙code💙<br>⚡ Fun fact: Never let failures get you down. Every mistake is an opportunity to learn and improve.<br>📫 How to reach me mpoyojude0@gmail.com
 
 
-## 🌐 Socials:
+## 🌐 How to reach me:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/judemwanabute) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jude-mpoyo-4316642a3) 
 
 # 💻 Tech Stack:
