@@ -5,7 +5,7 @@
 
 
 ## 🌐 How to reach me:
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%230077B5.svg?logo=linkedin&logoColor=white)](https://wa.me/+243975889135) 
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%230077B5.svg?logo=whatsapp&logoColor=white)](https://wa.me/+243975889135) 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/judemwanabute) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jude-mpoyo-4316642a3) 
 
 ## 💻  Languages and Tools:
