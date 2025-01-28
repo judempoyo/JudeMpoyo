@@ -7,7 +7,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=judempoyo&label=Profile%20views&color=0e75b6&style=flat" alt="judempoyo" /> </p>
 
 
-- 🌱 I’m currently learning **Flutter, react**
+- 🌱 I’m currently learning **React, Docker**
 
 - 💬 Ask me about **Laravel, flutter,PHP,react**
   
