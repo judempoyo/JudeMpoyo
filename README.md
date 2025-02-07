@@ -14,7 +14,8 @@
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=judempoyo&theme=vue-dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=judempoyo&theme=vue-dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=judempoyo&theme=vue-dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=judempoyo&theme=vue-dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)<br/>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=judempoyo%20&theme=vue&hide_border=true)](https://git.io/streak-stats)
 
 [![](https://visitcount.itsvg.in/api?id=judempoyo&icon=0&color=3)](https://visitcount.itsvg.in)
 
