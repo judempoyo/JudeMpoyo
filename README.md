@@ -19,6 +19,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=judempoyo&icon=0&color=3)](https://visitcount.itsvg.in)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=judempoyo&no-frame=true&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 [![](https://github-profile-trophy.vercel.app/?username=judempoyo&no-frame=true)]
   ## 💰 Support my work
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/buymeacoffee.com/mpoyojude0v) 
