@@ -5,7 +5,7 @@
  <h3>Web and Mobile developer </h3>
 
 ## 💫 About Me:
- 🌱 I’m currently learning Angular, Docker<br>💬 Ask me about Laravel, flutter,PHP,Angular<br>👯 I’m looking to collaborate on Laravel or flutter project<br>😍 I love anime, reading and 💙code💙<br>⚡ Fun fact: Never let failures get you down. Every mistake is an opportunity to learn and improve.<br>📫 How to reach me mpoyojude0@gmail.com
+ 🌱 I’m currently learning Angular, Docker<br>💬 Ask me about Laravel, flutter,PHP,Angular<br>👯 I’m looking to collaborate on any project<br>😍 I love anime, reading and 💙code💙<br>⚡ Fun fact: Never let failures get you down. Every mistake is an opportunity to learn and improve.<br>📫 How to reach me mpoyojude0@gmail.com
 
 ## 🌐 How to reach me:
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%230077B5.svg?logo=whatsapp&logoColor=white)](https://wa.me/+243975889135) 
