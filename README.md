@@ -21,7 +21,7 @@ Passionate full-stack developer crafting robust web and mobile applications. I s
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logo=livewire&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Vue](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=white)
 ### ⚙️ Backend
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
