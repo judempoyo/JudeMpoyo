@@ -8,8 +8,8 @@
 
 Passionate full-stack developer crafting robust web and mobile applications. I specialize in building scalable solutions with modern technologies while maintaining clean, efficient code.
 
-- 🌱 **Currently learning**: Docker
-- 💬 **Expertise**: Laravel, Flutter, PHP
+- 🌱 **Currently learning**: VueJs,Docker
+- 💬 **Expertise**: Laravel, PHP, Flutter
 - 👯 **Collaboration**: Open to innovative projects
 - ⚡ **Philosophy**: "First solve the problem, then write the code"
 - 📫 **Contact**: mpoyojude0@gmail.com | +243 975 889 135
@@ -17,10 +17,11 @@ Passionate full-stack developer crafting robust web and mobile applications. I s
 ## 🛠 Tech Stack
 
 ### 🖥️ Frontend
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logo=livewire&logoColor=white)
-
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Vue](https://img.shields.io/badge/Vuejs?logo=vuejs&logoColor=white)
 ### ⚙️ Backend
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
