@@ -1,4 +1,4 @@
-# 🚀 Jude Mpoyo - Full Stack Developer
+# 🚀 Jude Mpoyo - Full-Stack developer 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/20906a65-30a7-4c5b-9407-25544b9f9d69" alt="Banner" width="100%">
@@ -76,6 +76,7 @@ Passionate full-stack developer crafting robust web and mobile applications. I s
 ![Votre projet mérite mieux qu’une idée  Construisons-le ensemble !__20250212_091328_0001](https://github.com/user-attachments/assets/20906a65-30a7-4c5b-9407-25544b9f9d69)
 
 # Hi, I'm Jude Mpoyo 👋
+
  <h3>Web and Mobile developer </h3>
 
 ## 💫 About Me:
