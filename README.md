@@ -1,4 +1,4 @@
-# 🚀 Jude Mpoyo - Full-Stack developer 
+# 🚀 Jude Mpoyo - Web and mobile developer 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/20906a65-30a7-4c5b-9407-25544b9f9d69" alt="Banner" width="100%">
