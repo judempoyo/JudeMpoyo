@@ -8,8 +8,8 @@
 
 Passionate full-stack developer crafting robust web and mobile applications. I specialize in building scalable solutions with modern technologies while maintaining clean, efficient code.
 
-- 🌱 **Currently learning**: VueJs,Docker
-- 💬 **Expertise**: Laravel, PHP, Flutter
+- 🌱 **Currently learning**: Vue.Js,Docker
+- 💬 **Expertise**: Laravel, PHP, Flutter, Vue.js
 - 👯 **Collaboration**: Open to innovative projects
 - ⚡ **Philosophy**: "First solve the problem, then write the code"
 - 📫 **Contact**: mpoyojude0@gmail.com | +243 975 889 135
